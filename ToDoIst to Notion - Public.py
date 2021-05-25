@@ -2,8 +2,11 @@ import todoist
 
 ##### ALL OF THE VALUES YOU PASTE HERE SHOULD BE IN STRINGS
 TODOIST_API_KEY =  #copy and paste the api key 
+TODOIST_label_id =
 NOTION_API_KEY =     #  "secret_somneklhjslkdgjsdljfg" or something like that 
 database_id =  #get the mess of numbers before the "?" on your dashboard URL and then split it into 8-4-4-4-12 characters between each dash
+
+
 
 api = todoist.TodoistAPI(TODOIST_API_KEY)
 api.sync()
@@ -12,7 +15,7 @@ import requests
 resultList=requests.get(
     "https://api.todoist.com/rest/v1/tasks",
     params={
-        "label_id": 2157047813
+        "label_id": TODOIST_label_id
     },
     headers={
         "Authorization": "Bearer %s" % TODOIST_API_KEY
