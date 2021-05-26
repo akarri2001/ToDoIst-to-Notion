@@ -1,5 +1,8 @@
 import todoist
 
+##You need the title of your Notion Dashboard to be "Task"
+##You need a date column of your Notion Dashboard to be "Date"
+##You need a multi-select column of your Notion Dashboard to be "Dashboard" and should have already created the "ToDoIst" option on Notion
 ##### ALL OF THE VALUES YOU PASTE HERE SHOULD BE IN STRINGS
 TODOIST_API_KEY =  #copy and paste the api key 
 TODOIST_label_id =
