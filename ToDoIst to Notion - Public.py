@@ -5,7 +5,7 @@ import todoist
 ##You need a multi-select column of your Notion Dashboard to be "Dashboard" and should have already created the "ToDoIst" option on Notion
 ##### ALL OF THE VALUES YOU PASTE HERE SHOULD BE IN STRINGS
 TODOIST_API_KEY =  #copy and paste the api key 
-TODOIST_label_id =
+TODOIST_label_id = #when you're on the website and under the specific label, you'll be able to get the id by inspect element and finding the number
 NOTION_API_KEY =     #  "secret_somneklhjslkdgjsdljfg" or something like that 
 database_id =  #get the mess of numbers and letters before the "?" on your dashboard URL and then split it into 8-4-4-4-12 characters between each dash
 
